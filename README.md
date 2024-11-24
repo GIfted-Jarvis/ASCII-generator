@@ -117,7 +117,13 @@ By running the sript **img2img_color.py** or **img2img.py** with different value
 
 ## Requirements
 
-* **python 3.6**
+* **python 3.8**
 * **cv2**
 * **PIL** 
 * **numpy**
+
+
+## Eg
+```
+python img2img_color.py --language chinese --input ./data/input.jpg --output ./data/output.png
+```
